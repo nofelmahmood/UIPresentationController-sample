@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E3F75361F5FF63B00D86729 /* SlideInPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3F75351F5FF63B00D86729 /* SlideInPresentationController.swift */; };
+		3E90214B1F5FEA27004D52FA /* SlideInPresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E90214A1F5FEA27004D52FA /* SlideInPresentationManager.swift */; };
 		3EE03B241F5EEE2300C3B2E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE03B231F5EEE2300C3B2E0 /* AppDelegate.swift */; };
 		3EE03B261F5EEE2300C3B2E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE03B251F5EEE2300C3B2E0 /* ViewController.swift */; };
 		3EE03B291F5EEE2300C3B2E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EE03B271F5EEE2300C3B2E0 /* Main.storyboard */; };
 		3EE03B2B1F5EEE2300C3B2E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EE03B2A1F5EEE2300C3B2E0 /* Assets.xcassets */; };
 		3EE03B2E1F5EEE2300C3B2E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EE03B2C1F5EEE2300C3B2E0 /* LaunchScreen.storyboard */; };
+		3EE03B361F5EF4A800C3B2E0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE03B351F5EF4A800C3B2E0 /* DetailViewController.swift */; };
+		3EE03B381F5EF57200C3B2E0 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE03B371F5EF57200C3B2E0 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E3F75351F5FF63B00D86729 /* SlideInPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideInPresentationController.swift; sourceTree = "<group>"; };
+		3E90214A1F5FEA27004D52FA /* SlideInPresentationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideInPresentationManager.swift; sourceTree = "<group>"; };
 		3EE03B201F5EEE2300C3B2E0 /* UIPresentationController-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIPresentationController-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EE03B231F5EEE2300C3B2E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EE03B251F5EEE2300C3B2E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,8 @@
 		3EE03B2A1F5EEE2300C3B2E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EE03B2D1F5EEE2300C3B2E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EE03B2F1F5EEE2300C3B2E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EE03B351F5EF4A800C3B2E0 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3EE03B371F5EF57200C3B2E0 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +64,14 @@
 			children = (
 				3EE03B231F5EEE2300C3B2E0 /* AppDelegate.swift */,
 				3EE03B251F5EEE2300C3B2E0 /* ViewController.swift */,
+				3EE03B351F5EF4A800C3B2E0 /* DetailViewController.swift */,
+				3EE03B371F5EF57200C3B2E0 /* CustomTableViewCell.swift */,
 				3EE03B271F5EEE2300C3B2E0 /* Main.storyboard */,
 				3EE03B2A1F5EEE2300C3B2E0 /* Assets.xcassets */,
 				3EE03B2C1F5EEE2300C3B2E0 /* LaunchScreen.storyboard */,
 				3EE03B2F1F5EEE2300C3B2E0 /* Info.plist */,
+				3E90214A1F5FEA27004D52FA /* SlideInPresentationManager.swift */,
+				3E3F75351F5FF63B00D86729 /* SlideInPresentationController.swift */,
 			);
 			path = "UIPresentationController-sample";
 			sourceTree = "<group>";
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E90214B1F5FEA27004D52FA /* SlideInPresentationManager.swift in Sources */,
+				3EE03B361F5EF4A800C3B2E0 /* DetailViewController.swift in Sources */,
 				3EE03B261F5EEE2300C3B2E0 /* ViewController.swift in Sources */,
+				3EE03B381F5EF57200C3B2E0 /* CustomTableViewCell.swift in Sources */,
+				3E3F75361F5FF63B00D86729 /* SlideInPresentationController.swift in Sources */,
 				3EE03B241F5EEE2300C3B2E0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +316,7 @@
 				3EE03B341F5EEE2300C3B2E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
